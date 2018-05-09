@@ -1,0 +1,12 @@
+clc;
+clear;
+load iris.dat;
+data=iris;
+coeff=pca(data);
+data=data*coeff(:,1:2);
+k=3;
+[~,u]=kmeanspp(data',k);
+u=u';
+BalancedKmeansWithIntLinPro(data,k,u);
+figure;
+plot(data(:,1),data(:,2),'k.','markersize',11);
