@@ -28,5 +28,5 @@ These two files using 0-1 integer programming to assign the observations into cl
 Get the cost matrix of Hungarian algorithm and our algorithm.These two files used in the experiments which mean to evaluete the 
 performance of sinle partition.
 
-## kmeanapp.m
+## kmeanspp.m
 The best version of kmeans++ implementation
