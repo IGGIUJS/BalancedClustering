@@ -1,5 +1,7 @@
 # BalancedKmeans
 The source code of the paper "Optimizing MSE for Clustering with Balanced Size Constraints"
+# How to use?
+This alogrithm is very easy to use!First you need to init some points as the initial centroids,we recommend use kmean++ which we provide in the kmeanpp.m to generate them.Then you just need to call the balancedKmeans function which contains in BalancedKmeansWithIntLinPro.m.
 # Description
 ## Data
 The real datasets we used in this work.
