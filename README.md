@@ -1,13 +1,13 @@
 # BalancedKmeans
 The source code of the paper "Optimizing MSE for Clustering with Balanced Size Constraints"
 # How to use?
-This alogrithm is very easy to use! First you need to init some points as the initial centroids. We recommend you using kmeans++ which provided in the kmeanpp.m to generate them. Then you just need to call the balancedKmeans function which contains in BalancedKmeansWithIntLinPro.m. Examples can be found in /Statistic Results/Clustering/
+This alogrithm is very easy to use! First you need to init some points as the initial centroids. We recommend you using kmeans++ which has been provided in the kmeanpp.m to generate them. Then you just need to call the balancedKmeans function which contains in BalancedKmeansWithIntLinPro.m. Examples can be found in /Statistic Results/Clustering/
 # Description
 ## Data
 The real datasets we used in this work.
 
 ## Regression statistic
-The regression statistic results which used to evaluate the time of our algorithm
+The regression statistic results which used to evaluate the running time of our algorithm.
 
 ## Statistic Results
 The experiments we have done in this work. This floder includes the dictionary of Clustering, SinglePartition and ClusteringProcedure. Notice that the sythetic datasets and real datasets are both contain in the results. If you load these .Mat files in matlab, you can found all of the values.
