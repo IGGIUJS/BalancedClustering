@@ -1,3 +1,2 @@
-We delete the 5-7 groups from the "1-7.mat" because of the abormal of Hungarian Algorithm running time. It may have some problems in this
-situation, so to keep objective of experience, we delete these data from the final statistics thouth careful consideration.If you want to 
+We delete the 5-7 groups from the "1-7.mat" because of unexpect results of the Hungarian Algorithm running time. It may have some problems in this situation. So to keep objective, we delete these abnormal data from the final statistics through careful consideration. If you want to 
 check these data, you can load the "1-7.mat" and inspect them.
