@@ -29,3 +29,6 @@ Get the cost matrix of the Hungarian algorithm and our algorithm. These files us
 
 ## kmeanspp.m
 The best version of kmeans++ implementation.
+
+## BalancedKmeansWithKbs.m
+The implementation of "Zhu S, Wang D, Li T. Data clustering with size constraints[J]. Knowledge-Based Systems, 2010, 23(8):883-889".
